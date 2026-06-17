@@ -51,15 +51,15 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 
 Verified successful root access using Root Checker.
 
-![Root Access Verification](screenshots/1-root-access-verification.jpg)
-
+![Root Access Verification](images/1.Root%20Access%20Verified.jpeg)
 ---
 
 ## 2. Magisk Root Management
 
 Verified Magisk installation and root management configuration.
 
-![Magisk Root Management](screenshots/2-magisk-root-management.jpg)
+![Magisk Root Management](images/2.Magisk%20Root%20Management.jpeg)
+
 
 ---
 
@@ -67,7 +67,7 @@ Verified Magisk installation and root management configuration.
 
 Successfully installed and configured Kali NetHunter on Android.
 
-![Kali NetHunter Environment](screenshots/3-kali-nethunter-environment.jpg)
+![Kali NetHunter Environment](images/3.Kali%20NetHunter%20Environment.jpeg)
 
 ---
 
@@ -75,7 +75,7 @@ Successfully installed and configured Kali NetHunter on Android.
 
 Verified Kali Linux chroot environment is running correctly.
 
-![Kali Chroot Manager Running](screenshots/4-kali-chroot-manager-running.jpg)
+![Kali Chroot Manager Running](images/4.Kali%20Chroot%20Manager%20Running.jpeg)
 
 ---
 
@@ -90,7 +90,7 @@ whoami
 uname -a
 ```
 
-![Root Shell Verification](screenshots/5-root-shell-verification.jpg)
+![Root Shell Verification](images/5.Root%20Shell%20Verification.jpeg)
 
 ---
 
@@ -105,7 +105,7 @@ hostname -I
 ip a
 ```
 
-![Network Configuration Analysis](screenshots/6-network-configuration-analysis.jpg)
+![Network Configuration Analysis](images/6.Network%20Configuration%20Analysis.jpeg)
 
 ---
 
@@ -123,7 +123,7 @@ sqlmap --version
 hydra -h
 ```
 
-![Installed Security Tools](screenshots/7-installed-security-tools.jpg)
+![Installed Security Tools](images/7.Installed%20Security%20Tools.jpeg)
 
 ---
 
@@ -137,7 +137,7 @@ Discovered active hosts on the local network.
 nmap -sn 172.29.57.0/24
 ```
 
-![Network Host Discovery](screenshots/8-network-host-discovery.jpg)
+![Network Host Discovery](images/8.Network%20Host%20Discovery.jpeg)
 
 ---
 
@@ -151,7 +151,7 @@ Performed TCP port scanning against a target host.
 nmap 172.29.57.43
 ```
 
-![TCP Port Scan](screenshots/9-tcp-port-scan.jpg)
+![TCP Port Scan](images/9.TCP%20Port%20Scan.jpeg)
 
 ---
 
@@ -165,7 +165,7 @@ Validated DNS resolution functionality.
 nslookup google.com
 ```
 
-![DNS Lookup Verification](screenshots/10-dns-lookup-verification.jpg)
+![DNS Lookup Verification](images/10.DNS%20Lookup%20Verification.jpeg)
 
 ---
 
@@ -173,7 +173,7 @@ nslookup google.com
 
 Physical mobile cybersecurity lab setup using Android device running Kali NetHunter.
 
-![Kali NetHunter Lab Environment](screenshots/11-kali-nethunter-lab-environment.jpg)
+![Kali NetHunter Lab Environment](images/11.Kali%20NetHunter%20Lab%20Environment.jpeg)
 
 ---
 
