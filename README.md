@@ -41,7 +41,7 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 
 # Screenshots
 
-## 1. Root Access Verification
+## images/1.Root Access Verified.jpeg
 
 Verified successful root access using Root Checker and Magisk.
 
