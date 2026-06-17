@@ -41,25 +41,25 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 
 # Screenshots
 
-## images/1.Root Access Verified.jpeg
+## 1.Root Access Verified.jpeg
 
-Verified successful root access using Root Checker and Magisk.
+![Root Access Verification](images/1.Root Access Verified.jpeg)
 
 ## 2. Magisk Root Management
 
-Verified Magisk installation and root management configuration.
+![Magisk Root Management](images/2.Magisk Root Management.jpeg)
 
 ## 3. Kali NetHunter Home Screen
 
-Kali NetHunter environment successfully installed and configured.
+![Kali NetHunter Environment](images/3.Kali NetHunter Environment.jpeg)
 
 ## 4. Kali Chroot Manager
 
-Verified Kali Linux chroot environment is running correctly.
+![Kali Chroot Manager Running](images/4.Kali Chroot Manager Running.jpeg)
 
 ## 5. Root Shell Verification
 
-Verified root privileges using:
+![Root Shell Verification](images/5.Root Shell Verification.jpeg)
 
 ```bash
 whoami
@@ -68,7 +68,7 @@ uname -a
 
 ## 6. Network Configuration Analysis
 
-Enumerated active interfaces and IP addressing information.
+![Network Configuration Analysis](images/6.Network Configuration Analysis.jpeg)
 
 ```bash
 hostname -I
@@ -77,7 +77,7 @@ ip a
 
 ## 7. Security Tools Verification
 
-Verified installation of essential penetration testing tools.
+![Installed Security Tools](images/7.Installed Security Tools.jpeg)
 
 ```bash
 nmap --version
@@ -89,7 +89,7 @@ hydra -h
 
 ## 8. Network Host Discovery
 
-Discovered active hosts on the local network.
+![Network Host Discovery](images/8.Network Host Discovery.jpeg)
 
 ```bash
 nmap -sn 172.29.57.0/24
@@ -97,7 +97,7 @@ nmap -sn 172.29.57.0/24
 
 ## 9. Port Scanning Demonstration
 
-Performed TCP port scanning against a target host.
+![TCP Port Scan](images/9.TCP Port Scan.jpeg)
 
 ```bash
 nmap 172.29.57.43
@@ -105,7 +105,7 @@ nmap 172.29.57.43
 
 ## 10. DNS Lookup Verification
 
-Validated DNS resolution functionality.
+![DNS Lookup Verification](images/10.DNS Lookup Verification.jpeg)
 
 ```bash
 nslookup google.com
@@ -113,8 +113,7 @@ nslookup google.com
 
 ## 11. Lab Setup
 
-Physical mobile cybersecurity lab setup using Android device running Kali NetHunter.
-
+![Kali NetHunter Lab Environment](images/11.Kali NetHunter Lab Environment.jpeg)
 ---
 
 ## Skills Demonstrated
