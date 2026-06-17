@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project demonstrates a Mobile Penetration Testing Lab built using Kali NetHunter on a rooted Android device. The lab is used for learning networking, security assessment, reconnaissance, enumeration, and penetration testing fundamentals in a controlled environment.
+This project demonstrates a Mobile Penetration Testing Lab built using Kali NetHunter on a rooted Android device. The lab is designed for learning Linux administration, networking, security assessment, reconnaissance, enumeration, and penetration testing fundamentals in a controlled environment.
+
+---
 
 ## Device Information
 
@@ -11,19 +13,23 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 | Device | OnePlus Nord CE 2 Lite (LE2101) |
 | Android Version | Android 14 |
 | Root Solution | Magisk 30.7 |
-| Environment | Kali NetHunter Rooted |
+| Environment | Kali NetHunter (Rooted) |
 | Architecture | ARM64 |
+
+---
 
 ## Objectives
 
-- Build a mobile penetration testing environment
+- Build a portable penetration testing environment
 - Configure Kali NetHunter on Android
 - Verify root access and Linux environment
 - Perform network reconnaissance
 - Conduct host discovery
-- Perform DNS enumeration
-- Validate security tools installation
-- Create a portable cybersecurity lab
+- Validate DNS functionality
+- Verify security tool installation
+- Create a mobile cybersecurity lab
+
+---
 
 ## Tools Used
 
@@ -39,13 +45,13 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 
 ---
 
-# Screenshots
+# Project Demonstration
 
 ## 1. Root Access Verification
 
-Verified successful root access using Root Checker and Magisk.
+Verified successful root access using Root Checker.
 
-![Root Access Verification](images/1.Root%20Access%20Verified.jpeg)
+![Root Access Verification](screenshots/1-root-access-verification.jpg)
 
 ---
 
@@ -53,97 +59,186 @@ Verified successful root access using Root Checker and Magisk.
 
 Verified Magisk installation and root management configuration.
 
-![Magisk Root Management](images/2.Magisk%20Root%20Management.jpeg)
+![Magisk Root Management](screenshots/2-magisk-root-management.jpg)
 
 ---
 
-## 3. Kali NetHunter Home Screen
+## 3. Kali NetHunter Environment
 
-Kali NetHunter environment successfully installed and configured.
+Successfully installed and configured Kali NetHunter on Android.
 
-![Kali NetHunter Environment](images/3.Kali%20NetHunter%20Environment.jpeg)
+![Kali NetHunter Environment](screenshots/3-kali-nethunter-environment.jpg)
 
 ---
 
-## 4. Kali Chroot Manager
+## 4. Kali Chroot Manager Running
 
-Verified Kali Chroot Manager running successfully.
+Verified Kali Linux chroot environment is running correctly.
 
-![Kali Chroot Manager Running](images/4.Kali%20Chroot%20Manager%20Running.jpeg)
+![Kali Chroot Manager Running](screenshots/4-kali-chroot-manager-running.jpg)
 
 ---
 
 ## 5. Root Shell Verification
 
-Confirmed root shell access inside Kali NetHunter.
+Verified root privileges inside Kali NetHunter.
 
-![Root Shell Verification](images/5.Root%20Shell%20Verification.jpeg)
+### Commands Used
+
+```bash
+whoami
+uname -a
+```
+
+![Root Shell Verification](screenshots/5-root-shell-verification.jpg)
 
 ---
 
 ## 6. Network Configuration Analysis
 
-Displayed network interfaces and IP configuration.
+Enumerated active interfaces and IP addressing information.
 
-![Network Configuration Analysis](images/6.Network%20Configuration%20Analysis.jpeg)
+### Commands Used
+
+```bash
+hostname -I
+ip a
+```
+
+![Network Configuration Analysis](screenshots/6-network-configuration-analysis.jpg)
 
 ---
 
-## 7. Installed Security Tools
+## 7. Installed Security Tools Verification
 
-Verified installation of penetration testing tools.
+Verified installation of essential penetration testing tools.
 
-![Installed Security Tools](images/7.Installed%20Security%20Tools.jpeg)
+### Commands Used
+
+```bash
+nmap --version
+gobuster --version
+nikto -Version
+sqlmap --version
+hydra -h
+```
+
+![Installed Security Tools](screenshots/7-installed-security-tools.jpg)
 
 ---
 
 ## 8. Network Host Discovery
 
-Performed host discovery using Nmap.
+Discovered active hosts on the local network.
 
-![Network Host Discovery](images/8.Network%20Host%20Discovery.jpeg)
+### Command Used
+
+```bash
+nmap -sn 172.29.57.0/24
+```
+
+![Network Host Discovery](screenshots/8-network-host-discovery.jpg)
 
 ---
 
-## 9. TCP Port Scan
+## 9. TCP Port Scan Demonstration
 
-Executed TCP port scanning using Nmap.
+Performed TCP port scanning against a target host.
 
-![TCP Port Scan](images/9.TCP%20Port%20Scan.jpeg)
+### Command Used
+
+```bash
+nmap 172.29.57.43
+```
+
+![TCP Port Scan](screenshots/9-tcp-port-scan.jpg)
 
 ---
 
 ## 10. DNS Lookup Verification
 
-Verified DNS resolution using nslookup.
+Validated DNS resolution functionality.
 
-![DNS Lookup Verification](images/10.DNS%20Lookup%20Verification.jpeg)
+### Command Used
+
+```bash
+nslookup google.com
+```
+
+![DNS Lookup Verification](screenshots/10-dns-lookup-verification.jpg)
 
 ---
 
 ## 11. Kali NetHunter Lab Environment
 
-Final mobile penetration testing lab setup.
+Physical mobile cybersecurity lab setup using Android device running Kali NetHunter.
 
-![Kali NetHunter Lab Environment](images/11.Kali%20NetHunter%20Lab%20Environment.jpeg)
+![Kali NetHunter Lab Environment](screenshots/11-kali-nethunter-lab-environment.jpg)
 
-## Skills Demonstrated
+---
+
+# Skills Demonstrated
 
 - Linux Administration
 - Android Rooting
 - Kali NetHunter Configuration
+- Mobile Security Lab Deployment
 - Network Reconnaissance
 - Host Discovery
 - Port Scanning
 - DNS Enumeration
-- Cybersecurity Lab Setup
+- Security Tool Validation
 - Penetration Testing Fundamentals
+
+---
+
+# Key Learning Outcomes
+
+- Successfully deployed Kali NetHunter on a rooted Android device.
+- Established a portable penetration testing environment.
+- Verified root access and Linux subsystem functionality.
+- Performed network reconnaissance and host discovery.
+- Conducted TCP port scanning exercises.
+- Validated DNS resolution capabilities.
+- Demonstrated usage of common penetration testing tools.
+
+---
+
+## Project Structure
+
+```text
+Kali-NetHunter-Mobile-Lab/
+│
+├── README.md
+│
+└── screenshots/
+    ├── 1-root-access-verification.jpg
+    ├── 2-magisk-root-management.jpg
+    ├── 3-kali-nethunter-environment.jpg
+    ├── 4-kali-chroot-manager-running.jpg
+    ├── 5-root-shell-verification.jpg
+    ├── 6-network-configuration-analysis.jpg
+    ├── 7-installed-security-tools.jpg
+    ├── 8-network-host-discovery.jpg
+    ├── 9-tcp-port-scan.jpg
+    ├── 10-dns-lookup-verification.jpg
+    └── 11-kali-nethunter-lab-environment.jpg
+```
+
+---
 
 ## Disclaimer
 
-This project was created for educational and authorized security testing purposes only. All testing was performed in a controlled environment.
+This project was created strictly for educational purposes and authorized security testing in a controlled environment. All activities were conducted on owned devices and networks.
+
+---
 
 ## Author
 
-Manoj 
-Cybersecurity Enthusiast
+**Manoj**
+
+Cybersecurity Enthusiast | SOC Analyst | Penetration Testing Learner
+
+LinkedIn: www.linkedin.com/in/manoj-arya7/
+
+GitHub: Add Your GitHub Profile Here
