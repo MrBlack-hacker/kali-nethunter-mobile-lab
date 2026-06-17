@@ -41,80 +41,91 @@ This project demonstrates a Mobile Penetration Testing Lab built using Kali NetH
 
 # Screenshots
 
-## 1.Root Access Verified.jpeg
+## 1. Root Access Verification
 
-![Root Access Verification](images/1.Root Access Verified.jpeg)
+Verified successful root access using Root Checker and Magisk.
+
+![Root Access Verification](images/1.Root%20Access%20Verified.jpeg)
+
+---
 
 ## 2. Magisk Root Management
 
-![Magisk Root Management](images/2.Magisk Root Management.jpeg)
+Verified Magisk installation and root management configuration.
+
+![Magisk Root Management](images/2.Magisk%20Root%20Management.jpeg)
+
+---
 
 ## 3. Kali NetHunter Home Screen
 
-![Kali NetHunter Environment](images/3.Kali NetHunter Environment.jpeg)
+Kali NetHunter environment successfully installed and configured.
+
+![Kali NetHunter Environment](images/3.Kali%20NetHunter%20Environment.jpeg)
+
+---
 
 ## 4. Kali Chroot Manager
 
-![Kali Chroot Manager Running](images/4.Kali Chroot Manager Running.jpeg)
+Verified Kali Chroot Manager running successfully.
+
+![Kali Chroot Manager Running](images/4.Kali%20Chroot%20Manager%20Running.jpeg)
+
+---
 
 ## 5. Root Shell Verification
 
-![Root Shell Verification](images/5.Root Shell Verification.jpeg)
+Confirmed root shell access inside Kali NetHunter.
 
-```bash
-whoami
-uname -a
-```
+![Root Shell Verification](images/5.Root%20Shell%20Verification.jpeg)
+
+---
 
 ## 6. Network Configuration Analysis
 
-![Network Configuration Analysis](images/6.Network Configuration Analysis.jpeg)
+Displayed network interfaces and IP configuration.
 
-```bash
-hostname -I
-ip a
-```
+![Network Configuration Analysis](images/6.Network%20Configuration%20Analysis.jpeg)
 
-## 7. Security Tools Verification
+---
 
-![Installed Security Tools](images/7.Installed Security Tools.jpeg)
+## 7. Installed Security Tools
 
-```bash
-nmap --version
-gobuster --version
-nikto -Version
-sqlmap --version
-hydra -h
-```
+Verified installation of penetration testing tools.
+
+![Installed Security Tools](images/7.Installed%20Security%20Tools.jpeg)
+
+---
 
 ## 8. Network Host Discovery
 
-![Network Host Discovery](images/8.Network Host Discovery.jpeg)
+Performed host discovery using Nmap.
 
-```bash
-nmap -sn 172.29.57.0/24
-```
+![Network Host Discovery](images/8.Network%20Host%20Discovery.jpeg)
 
-## 9. Port Scanning Demonstration
+---
 
-![TCP Port Scan](images/9.TCP Port Scan.jpeg)
+## 9. TCP Port Scan
 
-```bash
-nmap 172.29.57.43
-```
+Executed TCP port scanning using Nmap.
+
+![TCP Port Scan](images/9.TCP%20Port%20Scan.jpeg)
+
+---
 
 ## 10. DNS Lookup Verification
 
-![DNS Lookup Verification](images/10.DNS Lookup Verification.jpeg)
+Verified DNS resolution using nslookup.
 
-```bash
-nslookup google.com
-```
+![DNS Lookup Verification](images/10.DNS%20Lookup%20Verification.jpeg)
 
-## 11. Lab Setup
-
-![Kali NetHunter Lab Environment](images/11.Kali NetHunter Lab Environment.jpeg)
 ---
+
+## 11. Kali NetHunter Lab Environment
+
+Final mobile penetration testing lab setup.
+
+![Kali NetHunter Lab Environment](images/11.Kali%20NetHunter%20Lab%20Environment.jpeg)
 
 ## Skills Demonstrated
 
