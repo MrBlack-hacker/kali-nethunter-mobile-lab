@@ -240,5 +240,3 @@ This project was created strictly for educational purposes and authorized securi
 Cybersecurity Enthusiast | SOC Analyst | Penetration Testing Learner
 
 LinkedIn: www.linkedin.com/in/manoj-arya7/
-
-GitHub: Add Your GitHub Profile Here
